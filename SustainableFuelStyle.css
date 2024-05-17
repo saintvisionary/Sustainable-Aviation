@@ -1,0 +1,79 @@
+/* Reset some default browser styles */
+body, h1, h2, p, ul, li, header, section, footer {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* Font and color settings for the body */
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    /* Background color, text color, and padding for the header */
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+nav ul {
+    /* Remove default list styling and align items in the center */
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    /* Margin for each navigation link */
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    /* Styling for the navigation links */
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Section Styles */
+section {
+    /* Padding and text alignment for each section */
+    padding: 2rem;
+    text-align: center;
+}
+
+#home {
+    /* Background settings for the home section */
+    background: url('background.jpg') no-repeat center center/cover;
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#home button {
+    /* Styling for the Learn More button */
+    background: #ff0000;
+    color: #fff;
+    border: none;
+    padding: 1rem 2rem;
+    cursor: pointer;
+}
+
+#about, #services, #contact {
+    /* Background color and margin for these sections */
+    background: #f4f4f4;
+    margin: 2rem 0;
+}
+
+footer {
+    /* Background color, text color, and padding for the footer */
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
